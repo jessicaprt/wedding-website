@@ -1,5 +1,78 @@
 body {
-  margin: 0;
+  margin: -20px 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.AmaticSC
+{ font-family: 'Amatic SC', cursive; }
+
+.Pacifico
+{ font-family: 'Pacifico', cursive; }
+
+.PoiretOne
+{ font-family: 'Poiret One', cursive; }
+
+.Header
+{ height: 100vh;
+  padding: 12vh 0;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: top;
+  text-align: center; 
+  color: #9888ae }
+
+.headerTitle
+{ padding: 3vh 0; }
+
+.mainTitle
+{ font-size: 7vh; }
+
+.subTitle
+{ font-size: 5vh;
+  margin: -3vh 0; }
+
+.navBlock
+{ display: inline-flex; 
+  border-top: 2px solid #9888ae;
+  border-bottom: 2px solid #9888ae;
+  padding: 2vh 3vh; 
+  margin-bottom: 5vh; }
+
+.navItems
+{ text-decoration: none; 
+  color: #9888ae;
+  padding: 2vh 3vh; }
+
+.navItems:hover {
+  text-decoration: none; 
+  color: rgba(152, 136, 174, 0.5);
+}  
+
+.Countdown{
+  margin: 10px auto;
+  padding-bottom: 20px;
+}
+
+.Countdown-col{
+  display: inline-block;
+}
+
+.Countdown-col-element{
+  display: inline-block;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.countdownNumber
+{ font-size: 5vh; }
+  
+.headerPhoto {
+  height: 70vh;
+  width: 80vw;
+  margin: 0 auto;
+  background-image: url('./assets/headerPhoto.jpg');
+  background-size: cover;
+  background-position: center;
 }
