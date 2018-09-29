@@ -1,8 +1,7 @@
-body {
-  margin: -20px 0;
+body 
+{ margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 .AmaticSC
 { font-family: 'Amatic SC', cursive; }
@@ -14,11 +13,11 @@ body {
 { font-family: 'Poiret One', cursive; }
 
 .Header
-{ height: 100vh;
-  padding: 12vh 0;
+{ padding: 12vh 0;
   background-image: url('./assets/background.png');
-  background-size: cover;
+  background-size: 100vw;
   background-position: top;
+  background-repeat: no-repeat;
   text-align: center; 
   color: #9888ae }
 
@@ -32,47 +31,84 @@ body {
 { font-size: 5vh;
   margin: -3vh 0; }
 
-.navBlock
-{ display: inline-flex; 
-  border-top: 2px solid #9888ae;
-  border-bottom: 2px solid #9888ae;
-  padding: 2vh 3vh; 
-  margin-bottom: 5vh; }
+.mainNav
+{ background-color: #fff;
+  margin: 0 auto; 
+  border: 0px; }
 
-.navItems
-{ text-decoration: none; 
-  color: #9888ae;
-  padding: 2vh 3vh; }
+.Navigation
+{ margin-bottom: 5vh; }
 
-.navItems:hover {
-  text-decoration: none; 
-  color: rgba(152, 136, 174, 0.5);
-}  
+.navLine
+{ height: 2px;
+  width: 50vw;
+  background-color: #9888ae; 
+  margin: 0 auto; }
 
-.Countdown{
-  margin: 10px auto;
-  padding-bottom: 20px;
-}
+.navbar-toggle
+{ width: 100%;
+  float: none;
+  margin-right: 0; 
+  border: 0;
+  border-radius: 0; 
+  background-color: #9888ae !important }
 
-.Countdown-col{
-  display: inline-block;
-}
+.navbar-collapse 
+{ border: 0; }
 
-.Countdown-col-element{
-  display: inline-block;
+.navbar-inverse .navbar-nav>li>a
+{ color: #9888ae; 
+  font-size: 15px; }
+
+.navbar-inverse .navbar-nav>li>a:hover
+{ color: rgba(152, 136, 174, 0.5); }
+
+.Countdown
+{ margin: 10px auto;
+  padding-bottom: 20px; }
+
+.Countdown-col
+{ display: inline-block; }
+
+.Countdown-col-element
+{ display: inline-block;
   margin: 0 20px;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .countdownNumber
 { font-size: 5vh; }
   
-.headerPhoto {
-  height: 70vh;
+.headerPhoto 
+{ height: 70vh;
   width: 80vw;
   margin: 0 auto;
   background-image: url('./assets/headerPhoto.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.OurWedding
+{ margin: 0 auto;
+  padding: 3vh;
+  width: 70vw; 
+  height: 100vh; }
+
+.map 
+{ height: 10vh; 
+  padding: 2vh; }
+
+@media (min-width: 768px) { 
+  .navbar .navbar-nav 
+  { display: inline-block;
+    float: none;
+    vertical-align: top; }
+
+  .navbar .navbar-collapse 
+  { text-align: center; } 
+}
+
+@media (max-width: 768px) {
+  .navLine
+  { visibility: hidden; }
 }

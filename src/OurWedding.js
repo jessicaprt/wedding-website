@@ -8,10 +8,14 @@ import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-map
 export class OurWedding extends Component {
     render() {
         return(
-            <Grid>
+            <Grid className="OurWedding">
                 <Row>
-                    <Col sm={6}></Col>
-                    <Col sm={6}></Col>
+                    <Col sm={6} className="map"></Col>
+                    <Col sm={6} className="map"></Col>
+                </Row>
+                <Row>
+                    <Col sm={6} className="mapDescription"></Col>
+                    <Col sm={6} className="mapDescription"></Col>
                 </Row>
             </Grid>
         );
