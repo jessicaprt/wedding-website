@@ -29,10 +29,15 @@ body
 
 .subTitle
 { font-size: 5vh;
-  margin: -3vh 0; }
+  margin: -3vh 0; 
+  color: #999}
+
+.sectionTitle
+{ color: #dcbc91;
+  font-size: 7vh; }
 
 .mainNav
-{ background-color: #fff;
+{ background-color: rgba(255,255,255,0);
   margin: 0 auto; 
   border: 0px; }
 
@@ -77,11 +82,12 @@ body
   flex-direction: column; }
 
 .countdownNumber
-{ font-size: 5vh; }
+{ font-size: 5vh;
+  color: #dcbc91 }
   
 .headerPhoto 
-{ height: 70vh;
-  width: 80vw;
+{ height: 80vh;
+  width: 90vw;
   margin: 0 auto;
   background-image: url('./assets/headerPhoto.jpg');
   background-size: cover;
@@ -91,12 +97,71 @@ body
 .OurWedding
 { margin: 0 auto;
   padding: 3vh;
-  width: 70vw; 
-  height: 100vh; }
+  padding-bottom: 20vh;
+  width: 70vw;
+  text-align: center }
+
+.mapWrapper
+{ padding: 2vh; }
 
 .map 
-{ height: 10vh; 
-  padding: 2vh; }
+{ height: 30vh; 
+  background-color: #aaa; }
+
+.mapDescription
+{ color: rgba(0,0,0,0.6); }
+
+.mapDescription p
+{ font-size: 18px; }
+
+.rsvp
+{ text-align: center; 
+  height: 100vh; 
+  background-image: url('./assets/rsvp2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: rgba(255,255,255,0.7);
+  padding-top: 20vh; }
+
+.rsvpTitle
+{ font-size: 15vh; }
+
+.rsvpButton
+{ padding: 2vh 8vh; 
+  border-radius: 15px; 
+  background-color: rgba(255,255,255,0.2);
+  border: 2px solid #fff; 
+  font-size: 5vh;
+  color: #fff;
+  font-family: 'Amatic SC', cursive; }
+
+.element
+{ text-align: center; 
+  padding: 5vh 0 }
+
+.elementLine
+{ height: 2px;
+  background-color: #9888ae; 
+  margin: 5vh auto; 
+  width: 70%; }
+
+.elementContent
+{ color: #555; 
+  font-size: 17px; 
+  padding: 0 10vh }
+
+.contact
+{ background-color: #9888ae;
+  padding: 5vh 0;}
+
+.contactContent
+{ font-size: 18px;
+  color: #ddd; 
+  padding: 5vh 0;}
+
+.contactLine
+{ height: 2px;
+  background-color: #eee; }
 
 @media (min-width: 768px) { 
   .navbar .navbar-nav 
@@ -111,4 +176,7 @@ body
 @media (max-width: 768px) {
   .navLine
   { visibility: hidden; }
+
+  .elementContent
+  { padding: 0 5vh; }
 }

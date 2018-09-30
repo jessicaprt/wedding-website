@@ -5,22 +5,6 @@ import NavItem from 'react-bootstrap/lib/NavItem';
 
 export class NavBar extends React.Component {
   render() {
-    const pages = [
-      ['OUR WEDDING', 'wedding'], 
-      ['RSVP', 'rsvp'], 
-      ['REGISTRY', 'registry'],
-      ['ACCOMODATION', 'accomodation'] ];
-
-    const navLinks = pages.map(page => {
-      return (
-        <div key={page[1]}>
-          <a href={'#' + page[1]} className="navItems">
-            {page[0]}
-          </a>
-        </div>
-      )
-    });
-
     return (
       <div className="Navigation">
         <div className="navLine"></div>
@@ -31,17 +15,20 @@ export class NavBar extends React.Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
-              <NavItem eventKey={1} href="#" className="navItem">
+              <NavItem eventKey={1} href="#our-wedding" className="navItem">
                 OUR WEDDING
               </NavItem>
-              <NavItem eventKey={2} href="#" className="navItem">
+              <NavItem eventKey={2} href="#rsvp" className="navItem">
                 RSVP
               </NavItem>
-              <NavItem eventKey={3} href="#" className="navItem">
+              <NavItem eventKey={3} href="#registry" className="navItem">
                 REGISTRY
               </NavItem>
-              <NavItem eventKey={4} href="#" className="navItem">
-                ACCOMODATION
+              <NavItem eventKey={4} href="#accommodation" className="navItem">
+                ACCOMMODATION
+              </NavItem>
+              <NavItem eventKey={5} href="#contact" className="navItem">
+                CONTACT INFO
               </NavItem>
             </Nav>
           </Navbar.Collapse>
