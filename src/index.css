@@ -101,6 +101,10 @@ body
   width: 70vw;
   text-align: center }
 
+.OurWedding p
+{ font-size: 3vh;
+  color: #555; }
+
 .mapWrapper
 { padding: 2vh; }
 
@@ -142,13 +146,13 @@ body
 .elementLine
 { height: 2px;
   background-color: #9888ae; 
-  margin: 5vh auto; 
-  width: 70%; }
+  margin: 5vh auto; }
 
 .elementContent
 { color: #555; 
   font-size: 17px; 
-  padding: 0 10vh }
+  padding: 0 10vh;
+  width: 100%; }
 
 .contact
 { background-color: #9888ae;

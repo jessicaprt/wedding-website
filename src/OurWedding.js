@@ -10,6 +10,7 @@ export class OurWedding extends Component {
         return(
             <Grid className="OurWedding" id="our-wedding">
                 <h1 className="AmaticSC sectionTitle">OUR WEDDING</h1>
+                <p>AUGUST 3, 2019</p>
                 <Row>
                     <Col sm={6} className="mapWrapper">
                         <div className="map"></div>

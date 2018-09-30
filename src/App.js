@@ -20,7 +20,7 @@ class App extends Component {
           content={ registry }/>
         <PlainElement 
           pid="accommodation"
-          title="Accommodation"
+          title="Guest Accommodations"
           content={ accommodation } />
         <ContactInfo />
       </div>

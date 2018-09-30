@@ -25,7 +25,7 @@ export class NavBar extends React.Component {
                 REGISTRY
               </NavItem>
               <NavItem eventKey={4} href="#accommodation" className="navItem">
-                ACCOMMODATION
+                ACCOMMODATIONS
               </NavItem>
               <NavItem eventKey={5} href="#contact" className="navItem">
                 CONTACT INFO
