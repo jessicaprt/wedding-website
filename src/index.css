@@ -127,6 +127,10 @@ body
   color: rgba(255,255,255,0.7);
   padding-top: 20vh; }
 
+.rsvp p
+{ font-size: 18px; 
+  padding: 2vh; }
+
 .rsvpTitle
 { font-size: 15vh; }
 
@@ -161,11 +165,42 @@ body
 .contactContent
 { font-size: 18px;
   color: #ddd; 
-  padding: 5vh 0;}
+  padding: 5vh 0; }
+
+.contactContent a
+{ text-decoration: none;
+  color: #fff; }  
+
+.contactContent a:hover
+{ text-decoration: none;
+  color: rgba(255,255,255,0.7);}
 
 .contactLine
 { height: 2px;
   background-color: #eee; }
+
+.formInput
+{ width: 80%; 
+  margin: 0 auto; 
+  padding: 2.5vh 4vh; 
+  border-radius: 12px;
+  border: 2px solid #666;
+  font-size: 18px; 
+  margin-bottom: 2vh;
+  background-color: rgba(255,255,255,0.8) }
+
+.formButton
+{ padding: 1vh 4vh;
+  font-size: 18px;
+  border-radius: 12px;
+  border: 2px solid #dcbc91; 
+  color: #222;
+  background-color: #dcbc91; }
+
+.formInline
+{ display: inline-block; 
+  margin: 2vh; }
+
 
 @media (min-width: 768px) { 
   .navbar .navbar-nav 

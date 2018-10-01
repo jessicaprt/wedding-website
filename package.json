@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-map-react": "^1.0.9",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
     "react-google-maps": "^9.4.5",
-    "react-scripts": "1.1.5"
+    "react-ionicons": "^2.1.6",
+    "react-scripts": "1.1.5",
+    "react-spinners": "^0.4.5"
   },
   "scripts": {
     "start": "react-scripts start",

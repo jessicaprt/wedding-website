@@ -13,7 +13,7 @@ export class ContactInfo extends Component {
                 <Grid>
                     <div className="sectionTitle AmaticSC">Contact Info</div>
                     <div className="contactContent">
-                        If you have any questions, you can always message us on facebook or email us at info@georgeandjessica.ca
+                        If you have any questions, you can always message us on facebook or email us at <a href="mailto:info@georgeandjessica.ca"><strong>info@georgeandjessica.ca</strong></a>
                     </div>
                     <div className="contactLine"></div>
                     { this.renderDate() }

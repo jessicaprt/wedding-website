@@ -7,7 +7,7 @@ import { ContactInfo } from './ContactInfo.js';
 
 class App extends Component {
   render() {
-    const registry="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    const registry="We're so lucky to be able to spend our wedding day with all of our friends and family. Your presence is truly all the present we need. Because we have all the basic household supplies covered, if you'd like to get us a gift to celebrate, we've created a registry fund that we'll use to enjoy our honeymoon.";
     const accommodation="We are aware that a lot of our guests will be travelling from outside of Calgary. We have worked with Deerfoot Inn & Casino to give our guests discounts for room rates. To get the discount, you must confirm your attendance first by completing the RSVP form";
     return (
       <div className="App">
