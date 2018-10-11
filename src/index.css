@@ -36,7 +36,7 @@ body
 { color: #dcbc91;
   font-size: 7vh; }
 
-.mainNav
+.Navigation .mainNav
 { background-color: rgba(255,255,255,0);
   margin: 0 auto; 
   border: 0px; }
@@ -44,29 +44,50 @@ body
 .Navigation
 { margin-bottom: 5vh; }
 
-.navLine
+.Navigation .navLine
 { height: 2px;
   width: 50vw;
   background-color: #9888ae; 
   margin: 0 auto; }
 
-.navbar-toggle
-{ width: 100%;
-  float: none;
-  margin-right: 0; 
-  border: 0;
-  border-radius: 0; 
-  background-color: #9888ae !important }
-
-.navbar-collapse 
+.Navigation .navbar-collapse 
 { border: 0; }
 
-.navbar-inverse .navbar-nav>li>a
+.Navigation .navbar-inverse .navbar-nav>li>a
 { color: #9888ae; 
   font-size: 15px; }
 
-.navbar-inverse .navbar-nav>li>a:hover
+.Navigation .navbar-inverse .navbar-nav>li>a:hover
 { color: rgba(152, 136, 174, 0.5); }
+
+.PlainNav .mainNav
+{ background-color: #9888ae;
+  border-radius: 0px;
+  border: 0px; }
+
+.PlainNav .navbar-toggle
+{ margin: 0;  
+  float: left; }
+
+.PlainNav .navbar-brand
+{ color: #fff; }
+
+.PlainNav .navbar-inverse .navbar-nav>li>a
+{ color: #fff; 
+  font-size: 15px; }
+
+.PlainNav .navbar-inverse .navbar-nav>li>a:hover
+{ color: rgba(255, 255, 255, 0.5); }
+
+.PlainNav .pNavItem
+{ display: inline-block;
+  margin: 0 20px; }
+
+.PlainNav .pNavItem a
+{ color: #fff; }
+
+.PlainNav .pNavItem a:hover 
+{ text-decoration: none; }
 
 .Countdown
 { margin: 10px auto;
@@ -180,13 +201,13 @@ body
   background-color: #eee; }
 
 .formInput
-{ width: 80%; 
-  margin: 0 auto; 
+{ width: 100%;
   padding: 2.5vh 4vh; 
   border-radius: 12px;
   border: 2px solid #666;
   font-size: 18px; 
   margin-bottom: 2vh;
+  margin-top: 2vh; 
   background-color: rgba(255,255,255,0.8) }
 
 .formButton
@@ -195,12 +216,16 @@ body
   border-radius: 12px;
   border: 2px solid #dcbc91; 
   color: #222;
-  background-color: #dcbc91; }
+  background-color: #dcbc91; 
+  margin: 2vh; }
 
 .formInline
 { display: inline-block; 
   margin: 2vh; }
 
+.formRadioButtons 
+{ font-size: 18px; 
+  margin: 2vh }
 
 @media (min-width: 768px) { 
   .navbar .navbar-nav 

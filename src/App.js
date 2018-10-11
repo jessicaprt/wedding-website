@@ -1,31 +1,31 @@
 import React, { Component } from 'react';
-import { Header } from './Header.js';
-import { OurWedding } from './OurWedding.js';
-import { Rsvp } from './Rsvp.js';
-import { PlainElement } from './PlainElement.js';
-import { ContactInfo } from './ContactInfo.js';
+import { BrowserRouter, Route } from 'react-router-dom';
+import { LandingPage } from './LandingPage';
+import { RsvpPage } from './RsvpPage';
 
 class App extends Component {
   render() {
-    const registry="We're so lucky to be able to spend our wedding day with all of our friends and family. Your presence is truly all the present we need. Because we have all the basic household supplies covered, if you'd like to get us a gift to celebrate, we've created a registry fund that we'll use to enjoy our honeymoon.";
-    const accommodation="We are aware that a lot of our guests will be travelling from outside of Calgary. We have worked with Deerfoot Inn & Casino to give our guests discounts for room rates. To get the discount, you must confirm your attendance first by completing the RSVP form";
     return (
-      <div className="App">
-        <Header />
-        <OurWedding />
-        <Rsvp />
-        <PlainElement
-          pid="registry"
-          title="Registry" 
-          content={ registry }/>
-        <PlainElement 
-          pid="accommodation"
-          title="Guest Accommodations"
-          content={ accommodation } />
-        <ContactInfo />
-      </div>
+      <BrowserRouter baseName={process.env.PUBLIC_URL}>
+        <div>
+          <Route exact={true} 
+            path='/'
+            render={() => (
+              <div className="App">
+                <LandingPage />
+              </div> )}/>
+
+          <Route exact={true} 
+            path='/rsvp'
+            render={() => (
+              <div className="App">
+                <RsvpPage />
+              </div> )}/>
+        </div>
+      </BrowserRouter>
     );
   }
 }
+
 
 export default App;
