@@ -23,7 +23,7 @@ export class RsvpMainForm extends Component {
         }
     }
 
-    handleChange(event) {
+    handleNameChange(event) {
         var inputName = event.target.value;
         this.setState({name : inputName})
         if (inputName == 0) {
@@ -49,8 +49,7 @@ export class RsvpMainForm extends Component {
                         controlId="formBasicText">
 
                         <Row className="formBlock">
-                            <Col sm={12}>
-                            <h4>Enter your name below: </h4> </Col></Row>
+                            <Col sm={12}><h4>Enter your name below: </h4> </Col></Row>
 
                         <Row className="formBlock">
                             <Col sm={8}>
@@ -59,14 +58,15 @@ export class RsvpMainForm extends Component {
                                         type="text"
                                         placeholder="Full Name"
                                         className="formInput"
-                                        onChange= { this.handleChange.bind(this) } /> :
+                                        onChange= { this.handleNameChange.bind(this) } /> :
 
                                     <FormControl
                                         readOnly
                                         type="text"
                                         placeholder="Full Name"
                                         className="formInput"
-                                        onChange= { this.handleChange.bind(this) } /> }
+                                        onChange= { this.handleNameChange.bind(this) } /> }
+                                        
                             </Col>
                             
                             <Col sm={4}>
@@ -78,6 +78,20 @@ export class RsvpMainForm extends Component {
                                     loading={this.state.loading}
                                 /></Col>
                         </Row>
+
+                        <Row className="formBlock">
+                            <Col sm={12}><h4>Or enter your RSVP code: </h4> </Col></Row>
+                        
+                        <Row className="formBlock">
+                            <Col sm={8}>
+                            <FormControl
+                                type="text"
+                                placeholder="RSVP code"
+                                className="formInput"
+                                onChange= { this.handleNameChange.bind(this) } /></Col>
+                        </Row>
+
+                        
                         <Row>
                             { ( this.state.matching && !this.state.continue ) ?
                                 <Button 
@@ -85,7 +99,7 @@ export class RsvpMainForm extends Component {
                                     onClick={ this.handleButtonClick.bind(this) }>Continue</Button> : null }
 
                             { this.state.continue ? <RsvpConfirmation show={true}/> : null }
-                            
+
                         </Row>
                         <FormControl.Feedback />
                     </FormGroup>
