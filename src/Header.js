@@ -11,7 +11,7 @@ export class Header extends Component {
                     <div className="Pacifico subTitle">and</div>
                     <div className="AmaticSC mainTitle">JESSICA PRIETO</div>
                 </div>
-                <Countdown date={'2019-08-03T13:00:00-07:00'} />
+                <Countdown date={'2019-08-03T14:00:00-07:00'} />
                 <NavBar />
                 <div className="headerPhoto"></div>
             </div>
