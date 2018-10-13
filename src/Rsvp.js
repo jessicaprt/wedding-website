@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import { RsvpMainForm } from './RsvpMainForm.js';
-
 export class Rsvp extends Component {
     render() {
         return(
