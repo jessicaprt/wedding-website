@@ -9,7 +9,7 @@ export class Rsvp extends Component {
                 <div className="rsvpTitle AmaticSC">RSVP</div>
                 <p>Tell us if you can make it to the wedding!</p>
 
-                <a href="/rsvp"
+                <a href="/#"
                     className="rsvpButton">Click Here to RSVP</a>
             </div>
         );

@@ -164,6 +164,10 @@ body
   color: #fff;
   font-family: 'Amatic SC', cursive; }
 
+.rsvpButton:hover
+{ text-decoration: none; 
+  color: #aaa }
+
 .element
 { text-align: center; 
   padding: 5vh 0 }
