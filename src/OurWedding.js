@@ -79,9 +79,6 @@ export class OurWedding extends Component {
                             <p>Calgary, Alberta</p></div></Col>
                         
                 </Row>
-
-                
-
             </Grid>
         );
     }

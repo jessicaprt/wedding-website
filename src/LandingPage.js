@@ -21,7 +21,9 @@ export class LandingPage extends Component {
             <PlainElement 
               pid="accommodation"
               title="Guest Accommodations"
-              content={ accommodation } />
+              content={ accommodation } 
+              link="/#rsvp"
+              linkText="RSVP"/>
             <ContactInfo />
           </div>
         );

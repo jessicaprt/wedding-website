@@ -11,6 +11,9 @@ export class PlainElement extends Component {
                 <div className="elementLine"></div>
                 <Row>
                     <Col sm={12}><div className="elementContent">{ this.props.content }</div></Col></Row>
+                <Row><Col sm={12} className="peLink">
+                    { (this.props.link !== null) ? 
+                        <a href={this.props.link}>{this.props.linkText}</a> : null }</Col></Row>
                 <div className="elementLine"></div>
             </Grid>
         );

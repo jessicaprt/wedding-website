@@ -164,6 +164,18 @@ body
   color: #fff;
   font-family: 'Amatic SC', cursive; }
 
+.peLink
+{ margin: 2vh 0; }
+
+.peLink a
+{ color: #9888ae;
+  font-size: 20px; }
+
+.peLink a:hover
+{ color: rgba(152, 136, 174, 0.5);
+  text-decoration: none;
+  font-weight: bold; }
+
 .rsvpButton:hover
 { text-decoration: none; 
   color: #aaa }
@@ -203,33 +215,6 @@ body
 .contactLine
 { height: 2px;
   background-color: #eee; }
-
-.formInput
-{ width: 100%;
-  padding: 2.5vh 4vh; 
-  border-radius: 12px;
-  border: 2px solid #666;
-  font-size: 18px; 
-  margin-bottom: 2vh;
-  margin-top: 2vh; 
-  background-color: rgba(255,255,255,0.8) }
-
-.formButton
-{ padding: 1vh 4vh;
-  font-size: 18px;
-  border-radius: 12px;
-  border: 2px solid #dcbc91; 
-  color: #222;
-  background-color: #dcbc91; 
-  margin: 2vh; }
-
-.formInline
-{ display: inline-block; 
-  margin: 2vh; }
-
-.formRadioButtons 
-{ font-size: 18px; 
-  margin: 2vh }
 
 @media (min-width: 768px) { 
   .navbar .navbar-nav 
