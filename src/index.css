@@ -232,4 +232,11 @@ body
 
   .elementContent
   { padding: 0 5vh; }
+
+  button.navbar-toggle
+  { background-color: #9888ae;
+    border: 0px; }
+
+  .navbar-header
+  { background-color: #9888ae; }
 }
