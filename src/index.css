@@ -216,6 +216,15 @@ body
 { height: 2px;
   background-color: #eee; }
 
+.castle 
+{ height: 170px; 
+  background-image: url('./assets/castle.png');
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: -5px;
+}
+
 @media (min-width: 768px) { 
   .navbar .navbar-nav 
   { display: inline-block;

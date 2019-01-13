@@ -26,6 +26,7 @@ export class LandingPage extends Component {
               content={ accommodation } 
               link="/#rsvp"
               linkText="RSVP"/>
+            <div class="castle"></div>
             <ContactInfo />
           </div>
         );
