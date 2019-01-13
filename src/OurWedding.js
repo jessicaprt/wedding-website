@@ -5,30 +5,22 @@ import Col from 'react-bootstrap/lib/Col';
 import GoogleMapReact from 'google-map-react';
 
 const MapMarker = ({ text }) => (
-    <div style={{
-      color: 'black', 
-      background: '#dcbc91',
-      padding: '10px 10px',
-      display: 'inline-flex',
-      textAlign: 'center',
-      alignItems: 'center',
-      justifyContent: 'center',
-      transform: 'translate(-50%, -50%)',
-    }}>
-      {text}
-    </div>
-  );
+    <i class="fa fa-map-marker" style={{
+        fontSize: '36px',
+        color: '#9888ae'  
+    }}></i>
+);
 
 export class OurWedding extends Component {
     static defaultProps = {
         ceremony: {
-            lat: 50.923816,
-            lng: -113.966120
+            lat: 50.924016,
+            lng: -113.966220
         },
 
         reception: {
             lat: 50.949348,
-            lng: -113.982655
+            lng: -113.982755
         },
 
         zoom: 17
