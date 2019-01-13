@@ -30,7 +30,25 @@ body
 .subTitle
 { font-size: 5vh;
   margin: -3vh 0; 
-  color: #999}
+  color: #999 }
+
+.date-wrapper {
+  margin: 3vh auto; 
+  text-align: center; }
+
+.date {
+  margin: 3vh auto;
+  display: inline-flex;
+}
+
+.mickey {
+  height: 20px;
+  width: 20px; 
+  margin: 15px 20px;
+  background-image: url('./assets/mickey.jpg');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  opacity: 0.5; }
 
 .sectionTitle
 { color: #dcbc91;
@@ -184,10 +202,17 @@ body
 { text-align: center; 
   padding: 5vh 0 }
 
-.elementLine
+/* .elementLine
 { height: 2px;
   background-color: #9888ae; 
-  margin: 5vh auto; }
+  margin: 5vh auto; } */
+
+.elementLine 
+{ background-image: url('./assets/border.png'); 
+  height: 150px; 
+  background-position: center;
+  background-size: contain; 
+  background-repeat: no-repeat; }
 
 .elementContent
 { color: #555; 

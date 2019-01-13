@@ -8,7 +8,7 @@ import { ContactInfo } from './ContactInfo.js';
 export class LandingPage extends Component {
     render() {
         const registry="We're so lucky to be able to spend our wedding day with all of our friends and family. Your presence is truly the only gift we need. Since we will be living in a different province after the wedding if you would like give us a gift we kindly ask for a small monetary gift for our future. You can either use the link below, or there will be dropboxes at the reception.";
-        const accommodation="We are aware that a lot of our guests will be travelling from outside of Calgary. We have worked with Deerfoot Inn & Casino to give our guests discounts for room rates. To get the discount, you must confirm your attendance first by completing the RSVP form";
+        const accommodation="We are aware that a lot of our guests will be travelling from outside of Calgary. We have worked with Deerfoot Inn & Casino to give our guests discounts for room rates. To get the discount code, email info@georgeandjessica.ca";
         return (
           <div className="App">
             <Header />
@@ -19,14 +19,19 @@ export class LandingPage extends Component {
               title="Registry" 
               content={ registry }
               link="#"
-              linkText="available soon"/>
+              linkText="available soon"
+              border="true"/>
             <PlainElement 
               pid="accommodation"
               title="Guest Accommodations"
               content={ accommodation } 
+<<<<<<< HEAD
               link="/#rsvp"
               linkText="RSVP"/>
             <div class="castle"></div>
+=======
+              border="false"/>
+>>>>>>> 7b594e725bb012be8e07cf97e31c8882d19fa08d
             <ContactInfo />
           </div>
         );
