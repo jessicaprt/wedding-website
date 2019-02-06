@@ -50,7 +50,8 @@ export class OurWedding extends Component {
                             <h1 className="AmaticSC">CEREMONY</h1>
                             <p>St. Albert the Great Parish</p>
                             <p>10 Prestwick Dr SE</p>
-                            <p>Calgary, Alberta</p></div></Col>
+                            <p>Calgary, Alberta</p>
+                            <p>2:00 pm</p></div></Col>
                     <Col sm={6} className="mapWrapper">
                         <div style={{ height: '50vh', width: '100%' }} className="map">
                             <GoogleMapReact
@@ -68,7 +69,8 @@ export class OurWedding extends Component {
                             <h1 className="AmaticSC">RECEPTION  </h1>
                             <p>Deerfoot Inn &amp; Casino</p>
                             <p>11500 35 St SE #1000</p>
-                            <p>Calgary, Alberta</p></div></Col>
+                            <p>Calgary, Alberta</p>
+                            <p>doors open at 6:00 pm</p></div></Col>
                         
                 </Row>
             </Grid>

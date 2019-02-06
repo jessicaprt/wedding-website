@@ -38,7 +38,7 @@ body
 
 .date {
   margin: 3vh auto;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 
 .mickey {

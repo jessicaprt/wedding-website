@@ -12,9 +12,7 @@ export class Header extends Component {
                     <div className="AmaticSC mainTitle">JESSICA PRIETO</div>
                     <div className="date-wrapper container AmaticSC subTitle">
                         <div className="date">
-                            <span><div class="mickey"></div></span>
-                            <span className="">AUG.03.2019</span>
-                            <span><div class="mickey"></div></span>
+                            <p>aug.03.2019 - Calgary, AB</p>
                         </div>
                     </div>
                 </div>
