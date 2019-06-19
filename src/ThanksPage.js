@@ -19,7 +19,9 @@ export class ThanksPage extends Component {
             <br/><br/>
             Keep this QR code handy. We will post links to our wedding photos and video here when they are ready.
             <br/><br/>
-            Again, thanks for coming from the Mr. and Mrs. Antonious family 💜
+            Once again, thank you for coming!
+            <br/><br/>
+            💜 Mr. and Mrs. Antonious
         </p>
 
         return (
