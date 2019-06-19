@@ -15,7 +15,7 @@ export class ThanksPage extends Component {
         let tableNumber = query.table
 
         let content = <p>
-            Looks like you tried scanning the QR code 😛Thanks for making your way out to our wedding! It means a lot to us to be able to share this day with our closest family and friends. We hope you're having/had a wonderful time celebrating our special day.
+            Looks like you tried scanning the QR code 😛 Thanks for making your way out to our wedding! It means a lot to us to be able to share this day with our closest family and friends. We hope you're having/had a wonderful time celebrating our special day.
             <br/><br/>
             Keep this QR code handy. We will post links to our wedding photos and video here when they are ready.
             <br/><br/>
