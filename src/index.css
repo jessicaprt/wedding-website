@@ -1,4 +1,4 @@
-body 
+body
 { margin: 0;
   padding: 0;
   font-family: sans-serif; }
@@ -18,22 +18,23 @@ body
   background-size: 100vw;
   background-position: top;
   background-repeat: no-repeat;
-  text-align: center; 
+  text-align: center;
   color: #9888ae }
 
 .headerTitle
 { padding: 3vh 0; }
 
 .mainTitle
-{ font-size: 7vh; }
+{ font-size: 7vh;
+  padding: 1vh 0; }
 
 .subTitle
 { font-size: 5vh;
-  margin: -3vh 0; 
+  margin: -3vh 0;
   color: #999 }
 
 .date-wrapper {
-  margin: 3vh auto; 
+  margin: 3vh auto;
   text-align: center; }
 
 .date {
@@ -43,11 +44,11 @@ body
 
 .mickey {
   height: 20px;
-  width: 20px; 
+  width: 20px;
   margin: 15px 20px;
   background-image: url('./assets/mickey.jpg');
   background-size: contain;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   opacity: 0.5; }
 
 .sectionTitle
@@ -56,7 +57,7 @@ body
 
 .Navigation .mainNav
 { background-color: rgba(255,255,255,0);
-  margin: 0 auto; 
+  margin: 0 auto;
   border: 0px; }
 
 .Navigation
@@ -65,14 +66,14 @@ body
 .Navigation .navLine
 { height: 2px;
   width: 50vw;
-  background-color: #9888ae; 
+  background-color: #9888ae;
   margin: 0 auto; }
 
-.Navigation .navbar-collapse 
+.Navigation .navbar-collapse
 { border: 0; }
 
 .Navigation .navbar-inverse .navbar-nav>li>a
-{ color: #9888ae; 
+{ color: #9888ae;
   font-size: 15px; }
 
 .Navigation .navbar-inverse .navbar-nav>li>a:hover
@@ -84,14 +85,14 @@ body
   border: 0px; }
 
 .PlainNav .navbar-toggle
-{ margin: 0;  
+{ margin: 0;
   float: left; }
 
 .PlainNav .navbar-brand
 { color: #fff; }
 
 .PlainNav .navbar-inverse .navbar-nav>li>a
-{ color: #fff; 
+{ color: #fff;
   font-size: 15px; }
 
 .PlainNav .navbar-inverse .navbar-nav>li>a:hover
@@ -104,7 +105,7 @@ body
 .PlainNav .pNavItem a
 { color: #fff; }
 
-.PlainNav .pNavItem a:hover 
+.PlainNav .pNavItem a:hover
 { text-decoration: none; }
 
 .Countdown
@@ -123,8 +124,8 @@ body
 .countdownNumber
 { font-size: 5vh;
   color: #dcbc91 }
-  
-.headerPhoto 
+
+.headerPhoto
 { height: 80vh;
   width: 90vw;
   margin: 0 auto;
@@ -147,8 +148,8 @@ body
 .mapWrapper
 { padding: 2vh; }
 
-.map 
-{ height: 30vh; 
+.map
+{ height: 30vh;
   background-color: #aaa; }
 
 .mapDescription
@@ -158,26 +159,26 @@ body
 { font-size: 18px; }
 
 .rsvp
-{ text-align: center; 
-  height: 100vh; 
-  background-image: url('./assets/rsvp2.jpg'); 
+{ text-align: center;
+  height: 100vh;
+  background-image: url('./assets/rsvp2.jpg');
   background-size: cover;
   background-position: center;
   color: rgba(255,255,255,0.7);
   padding-top: 20vh; }
 
 .rsvp p
-{ font-size: 18px; 
+{ font-size: 18px;
   padding: 2vh; }
 
 .rsvpTitle
 { font-size: 15vh; }
 
 .rsvpButton
-{ padding: 2vh 8vh; 
-  border-radius: 15px; 
+{ padding: 2vh 8vh;
+  border-radius: 15px;
   background-color: rgba(255,255,255,0.2);
-  border: 2px solid #fff; 
+  border: 2px solid #fff;
   font-size: 5vh;
   color: #fff;
   font-family: 'Amatic SC', cursive; }
@@ -195,28 +196,28 @@ body
   font-weight: bold; }
 
 .rsvpButton:hover
-{ text-decoration: none; 
+{ text-decoration: none;
   color: #aaa }
 
 .element
-{ text-align: center; 
+{ text-align: center;
   padding: 5vh 0 }
 
 /* .elementLine
 { height: 2px;
-  background-color: #9888ae; 
+  background-color: #9888ae;
   margin: 5vh auto; } */
 
-.elementLine 
-{ background-image: url('./assets/border.png'); 
-  height: 150px; 
+.elementLine
+{ background-image: url('./assets/border.png');
+  height: 150px;
   background-position: center;
-  background-size: contain; 
+  background-size: contain;
   background-repeat: no-repeat; }
 
 .elementContent
-{ color: #555; 
-  font-size: 17px; 
+{ color: #555;
+  font-size: 17px;
   padding: 0 10vh;
   width: 100%; }
 
@@ -226,12 +227,12 @@ body
 
 .contactContent
 { font-size: 18px;
-  color: #ddd; 
+  color: #ddd;
   padding: 5vh 0; }
 
 .contactContent a
 { text-decoration: none;
-  color: #fff; }  
+  color: #fff; }
 
 .contactContent a:hover
 { text-decoration: none;
@@ -241,23 +242,23 @@ body
 { height: 2px;
   background-color: #eee; }
 
-.castle 
-{ height: 170px; 
+.castle
+{ height: 170px;
   background-image: url('./assets/castle.png');
-  background-size: contain; 
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: -5px;
 }
 
-@media (min-width: 768px) { 
-  .navbar .navbar-nav 
+@media (min-width: 768px) {
+  .navbar .navbar-nav
   { display: inline-block;
     float: none;
     vertical-align: top; }
 
-  .navbar .navbar-collapse 
-  { text-align: center; } 
+  .navbar .navbar-collapse
+  { text-align: center; }
 }
 
 @media (max-width: 768px) {

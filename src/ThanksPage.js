@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import { PlainElement } from './PlainElement.js';
 var qs = require('qs');
 
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 export class ThanksPage extends Component {
     render() {
         const query = qs.parse(window.location.search, {
             ignoreQueryPrefix: true
         });
-        let name = query.name
+        let name = query.name ? query.name.capitalize() : ""
         let tableNumber = query.table
 
         let content = <p>
@@ -21,14 +25,12 @@ export class ThanksPage extends Component {
         return (
           <div className="App">
               <div className="Header">
-                <div className="headerTitle">
                 <PlainElement
                     pid="thanks"
                     title={`Thanks for coming ${name}!`}
                     content={content}
                     border="true"/>
                 </div>
-            </div>
           </div>
         );
       }
