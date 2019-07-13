@@ -264,8 +264,12 @@ body
 .BridalParty .leader, 
 .BridalParty .footer
 { color: #777;
-  font-style: italic;
-  padding: 0 5px }
+  font-style: italic }
+
+.BridalParty .list-sub, 
+.BridalParty .leader, 
+.BridalParty .footer 
+{ padding: 0 5px }
 
 .BridalParty .footer {
   margin-top: 50px }

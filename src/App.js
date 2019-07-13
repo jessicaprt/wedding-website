@@ -32,6 +32,14 @@ class App extends Component {
                   <RehearsalDinner />
                 </div>
               )}/>
+
+            <Route exact={true}
+              path='/info/rehearsal'
+              render={() => (
+                <div className="App">
+                  <RehearsalDinner />
+                </div>
+              )}/>
             <Route component={NotFound}/>
           </Switch>
         </div>
