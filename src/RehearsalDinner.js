@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { PlainElement } from './PlainElement.js';
+import { PlainNavBar } from './PlainNavBar.js';
 var qs = require('qs');
 
 String.prototype.capitalize = function() {
@@ -101,7 +102,8 @@ export class RehearsalDinner extends Component {
             </div>
 
         return (
-          <div className="App">
+          <div className="App RehearsalDinnerMain">
+              <PlainNavBar />
               <div className="Header">
                 <PlainElement
                     pid="rehearsal"

@@ -236,6 +236,9 @@ body
 { height: 2px;
   background-color: #eee; }
 
+.RehearsalDinnerMain .navbar 
+{ margin-bottom: 0px !important }
+
 .RehearsalDinner .sub
 { padding-bottom: 30px; 
   color: #777; }
