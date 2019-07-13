@@ -5,9 +5,7 @@ export class Rsvp extends Component {
         return(
             <div className="rsvp" id="rsvp">
                 <div className="rsvpTitle AmaticSC">RSVP</div>
-                <p>Tell us if you can make it to the wedding!</p>
-                <a href="http://rsvp.georgeandjessica.ca/"
-                    className="rsvpButton">Click Here to RSVP</a>
+                <p>RSVP is now closed. Thank you to everyone for responding. We'll see you all on our wedding!</p>
             </div>
         );
     }
