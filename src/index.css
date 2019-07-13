@@ -39,7 +39,6 @@ body
 
 .date {
   margin: 3vh auto;
-  /* display: inline-flex; */
 }
 
 .mickey {
@@ -203,11 +202,6 @@ body
 { text-align: center;
   padding: 5vh 0 }
 
-/* .elementLine
-{ height: 2px;
-  background-color: #9888ae;
-  margin: 5vh auto; } */
-
 .elementLine
 { background-image: url('./assets/border.png');
   height: 150px;
@@ -242,14 +236,36 @@ body
 { height: 2px;
   background-color: #eee; }
 
-.castle
-{ height: 170px;
-  background-image: url('./assets/castle.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: -5px;
+.RehearsalDinner .sub
+{ padding-bottom: 30px; 
+  color: #777; }
+
+.RehearsalDinner .table-wrapper 
+{ padding: 30px 0;
+  margin: 0 auto; }
+
+.RehearsalDinner .times 
+{ padding: 20px }
+
+.BridalParty .sub
+{ padding-bottom: 30px }
+
+.BridalParty .list 
+{ list-style: none;
+  padding: 0;
+  padding-bottom: 20px;
 }
+
+.BridalParty .and, 
+.BridalParty .list-sub, 
+.BridalParty .leader, 
+.BridalParty .footer
+{ color: #777;
+  font-style: italic;
+  padding: 0 5px }
+
+.BridalParty .footer {
+  margin-top: 50px }
 
 @media (min-width: 768px) {
   .navbar .navbar-nav
