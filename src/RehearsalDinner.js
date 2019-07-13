@@ -8,15 +8,15 @@ String.prototype.capitalize = function() {
 
 export class RehearsalDinner extends Component {
     render() {
-        let RehearsalDinnerContent = 
+        let RehearsalDinnerContent =
             <div className="RehearsalDinner">
                 <p className="sub"><em>Friday, August 2, 2019</em></p>
 
                 <p>Hello Bridal party! We are getting super close to the day of the wedding.</p>
                 <p>First of all, we want to thank you all for playing a special part in our special day. As part of our celebration,
-                    we request that you also attend our rehearsal day on Friday, 2nd of August. During that day, we will cover 
-                    the order of the ceremony including the order for when we all march down the aisle, the ceremony order, 
-                    and also what each of you would need to do during the day of the wedding. We will also have a cocktail afterwards. 
+                    we request that you also attend our rehearsal day on Friday, 2nd of August. During that day we will cover
+                    the order for when we all march down the aisle, the parts of the ceremony,
+                    and also what each of you would need to do during the day of the wedding. We will also have a cocktail afterwards.
                 </p>
                 <p>Below are the times that you need to know.</p>
 
