@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { PlainElement } from './PlainElement.js';
 import { PlainNavBar } from './PlainNavBar.js';
-var qs = require('qs');
 
 String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
@@ -89,7 +88,7 @@ export class RehearsalDinner extends Component {
 
                 <strong>Wedding Ceremony Leaders</strong>
                 <ul className="list">
-                    <li><span className="leader">Mass Celebrants: </span> Fr. Chris and Dcn. Ricardo Santiago</li>
+                    <li><span className="leader">Mass Celebrants: </span> Fr. Chris Sobanski and Dcn. Ricardo Santiago</li>
                     <li><span className="leader">First Reading:</span> Caleb Lagrange</li>
                     <li><span className="leader">Responsorial Psalm:</span> Paulo Intal</li>
                     <li><span className="leader">Second Reading: </span> Mary Youakim</li>

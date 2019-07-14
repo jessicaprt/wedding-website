@@ -3,6 +3,8 @@ import { LandingPage } from './LandingPage';
 import { ThanksPage } from './ThanksPage';
 import { NotFound } from './NotFound';
 import { RehearsalDinner } from './RehearsalDinner';
+import { MasterSchedule } from './MasterSchedule';
+import { Info } from './Info';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class App extends Component {
@@ -26,7 +28,21 @@ class App extends Component {
                 </div>
             )}/>
             <Route exact={true}
+              path='/info'
+              render={() => (
+                <div className="App">
+                  <Info />
+                </div>
+              )}/>
+            <Route exact={true}
               path='/info/rehearsal-dinner'
+              render={() => (
+                <div className="App">
+                  <RehearsalDinner />
+                </div>
+              )}/>
+            <Route exact={true}
+              path='/info/rehearsal'
               render={() => (
                 <div className="App">
                   <RehearsalDinner />
@@ -34,10 +50,10 @@ class App extends Component {
               )}/>
 
             <Route exact={true}
-              path='/info/rehearsal'
+              path='/info/master-schedule'
               render={() => (
                 <div className="App">
-                  <RehearsalDinner />
+                  <MasterSchedule />
                 </div>
               )}/>
             <Route component={NotFound}/>
