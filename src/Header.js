@@ -3,7 +3,7 @@ import { NavBar } from './NavBar.js';
 import { Countdown } from './Countdown.js';
 
 export class Header extends Component {
-    render() {      
+    render() {
         return(
             <div className="Header">
                 <div className="headerTitle">
@@ -16,7 +16,7 @@ export class Header extends Component {
                         </div>
                     </div>
                 </div>
-                <Countdown date={'2019-08-03T14:00:00-07:00'} />
+                <Countdown date={'2019-08-03T14:00:00-06:00'} />
                 <NavBar />
                 <div className="headerPhoto"></div>
             </div>
