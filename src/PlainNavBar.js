@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from 'react-bootstrap/lib/Nav';
 import Navbar from 'react-bootstrap/lib/Navbar';
 import NavItem from 'react-bootstrap/lib/NavItem';
 
@@ -15,6 +14,11 @@ export class PlainNavBar extends React.Component {
                 <NavItem eventKey={0} href="/" className="pNavItem">
                     George &amp; Jessica
                 </NavItem>
+                |
+                <NavItem eventKey={0} href="/info" className="pNavItem">
+                    Info
+                </NavItem>
+
             </Navbar.Brand>
         </Navbar.Header>
         </Navbar>
